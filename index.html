@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe | Data Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <canvas id="particles-bg"></canvas>
+    <nav class="navbar minimal-navbar">
+        <div class="container navbar-container">
+            <div class="nav-left">Marc Melgar</div>
+            <div class="nav-right" id="menu-btn">MENU</div>
+        </div>
+    </nav>
+    <div class="menu-overlay" id="menuOverlay">
+        <div class="menu-grid">
+            <div class="menu-left">
+                <div class="menu-name">Marc Melgar</div>
+                <div class="menu-label">Email</div>
+                <div class="menu-email">marcmelgar419@gmail.com</div>
+            </div>
+            <div class="menu-center"></div>
+            <div class="menu-right">
+                <div class="menu-close" id="closeMenu">&times; CLOSE</div>
+                <ul class="menu-links">
+                    <li><a href="#home">Home <span>[01]</span></a></li>
+                    <li><a href="#about">About <span>[02]</span></a></li>
+                    <li><a href="#contact">Contact <span>[03]</span></a></li>
+                </ul>
+                <div class="menu-socials">
+                    <a href="#" class="menu-social"><i class="icon-facebook"></i></a>
+                    <a href="#" class="menu-social"><i class="icon-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="home" class="hero grid-hero">
+        <div class="container hero-corners-container">
+            <div class="hero-grid">
+                <div class="hero-left">
+                    <h1 class="hero-name">Marc Melgar</h1>
+                    <p class="hero-desc">Computer Engineering with a focus on development, web design, and
+                        leadership.</p>
+                    <a href="#contact" class="hero-hire-btn">Hire Me</a>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-status">[ Available ]</div>
+                    <img src="profile1.jpg" alt="Profile" class="hero-img" />
+                </div>
+            </div>
+            <div class="hero-corners-row">
+                <div class="hero-corner hero-corner-left">[ Computer Engineer ]</div>
+                <div class="hero-corner hero-corner-right">[ Based on Philippines ]</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm a Computer Engineer passionate about building smart, connected systems.
+                I've developed sensor-based hardware, automated tasks with Python, and built API-powered dashboards.
+                Backed by certifications in AI, data analytics, and data center technologies, I create scalable,
+                data-driven solutions that bridge hardware and software.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">Python</div>
+                <div class="skill-card">SQL</div>
+                <div class="skill-card">Apache Spark</div>
+                <div class="skill-card">Apache Kafka</div>
+                <div class="skill-card">Snowflake</div>
+                <div class="skill-card">Databricks</div>
+                <div class="skill-card">AWS</div>
+                <div class="skill-card">GCP</div>
+                <div class="skill-card">Apache Airflow</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>AI Fundamentals with IBM SkillsBuild</h3>
+                    <p class="certification-issuer">Cisco</p>
+                    <p class="certification-date">Issued: June 04, 2025</p>
+                    <div class="certification-details">
+                        <p>Cisco, in collaboration with IBM SkillsBuild, verifies the earner of this badge successfully
+                            completed the AI Fundamentals with IBM SkillsBuild course and achieved the student level
+                            credentials. The credential earner demonstrates knowledge of basic artificial intelligence
+                            (AI) concepts, such as natural language processing, computer vision, deep learning, etc.
+                            Earner has also been exposed to the ethics of AI and is aware of the skills required for
+                            success in various roles in the domain.</p>
+                    </div>
+                    <a href="https://www.credly.com/badges/c2bb9ed3-50ed-4576-9f6a-a96f8348182f/linked_in_profile"
+                        class="certification-link" target="_blank">View Certificate</a>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Certified Data Center Technician (CDCT)</h3>
+                    <p class="certification-issuer">EAST WEST INTERNATIONAL EDUCATIONAL SPECIALISTS, INC</p>
+                    <p class="certification-date">Issued: November 14, 2024</p>
+                    <div class="certification-details">
+                        <p>This foundational course introduces participants to the essentials of datacenter operations,
+                            including architecture, basic networking, power and cooling systems, and an introduction to
+                            cloud computing. It lays the groundwork for a career in data center management.</p>
+                    </div>
+                    <a href="https://www.credly.com/badges/4f588a1b-8c7f-4c7a-9aaf-5e7d7543fab9/linked_in_profile"
+                        class="certification-link" target="_blank">View Certificate</a>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Data Analytics Essentials</h3>
+                    <p class="certification-issuer">Cisco</p>
+                    <p class="certification-date">Issued: September 29, 2024</p>
+                    <div class="certification-details">
+                        <p>Cisco verifies the earner of this badge successfully completed the Data Analytics Essentials
+                            course. The holder of this student-level credential has a broad understanding how the data
+                            analytics process creates value from data, can explain characteristics of data, including
+                            formats, availability and methods to acquire, can transform data and analyze data using
+                            basic statistical and data preparation techniques. The holder has completed hands-on
+                            activities using Excel, SQL, Tableau and other tools.</p>
+                    </div>
+                    <a href="https://www.credly.com/badges/4f2190d3-1574-4c62-9c9e-98979f697bb0/linked_in_profile"
+                        class="certification-link" target="_blank">View Certificate</a>
+                </div>
+            </div>
+            <div class="certifications-more">
+                <a href="https://www.linkedin.com/in/marc-melgar-88653b310/details/certifications/" target="_blank"
+                    class="certifications-more-link">More...</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <img src="experience-veryfy.jpg" alt="Veryfy Internship" class="experience-img" />
+                <div>
+                    <h3>Intern (OJT) - VERYFY </h3>
+                    <p> May 2024 - August 2024</p>
+                    <p> This internship allowed me to merge creativity with functionality—transforming design concepts
+                        into
+                        responsive web applications—and provided valuable experience in managing real-world development
+                        workflows</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="bote-logo.png" alt="BOTE Project Logo" class="project-img" />
+                    <h3>BOTE: Bin Optimizer for Trash and Ecology</h3>
+                    <p>Developed "BOTE" (Bin Optimizer for Trash and Ecology), a prototype Reverse Vending Machine that
+                        encourages recycling by accepting plastic bottles and metal cans in exchange for coins. Using
+                        Rapid Application Development, the system integrates sensors, a crushing mechanism, and a coin
+                        dispenser to automate sorting and volume reduction. Designed to boost recycling participation
+                        and environmental awareness, the project received high marks for functionality and reliability
+                        from both users and experts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect With Me Section (duplicated under projects) -->
+    <section id="connect" class="section">
+        <div class="container">
+            <div class="connect-container">
+                <div class="connect-form-container">
+                    <div class="connect-label">[ Contact ]</div>
+                    <h2 class="connect-title">Connect With Me</h2>
+                    <p class="connect-description">Feel free to reach out to me via email or phone. You can also connect
+                        with me on LinkedIn.</p>
+                    <form class="connect-form">
+                        <div class="form-group">
+                            <label for="contact-name">Name</label><br>
+                            <input id="contact-name" name="name" type="text" placeholder="Jane Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email</label><br>
+                            <input id="contact-email" name="email" type="email" placeholder="jane@framer.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message">Message</label><br>
+                            <textarea id="contact-message" name="message" placeholder="Hello, I want ..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Submit</button>
+                    </form>
+                </div>
+                <div class="connect-info">
+                    <div class="info-group">
+                        <div class="info-label">Email</div>
+                        <div class="info-value">marcmelgar419@gmail.com</div>
+                    </div>
+                    <div class="info-group">
+                        <div class="info-label">Phone</div>
+                        <div class="info-value">+63 938 250 2648</div>
+                    </div>
+                    <div class="info-group">
+                        <div class="info-label">LinkedIn</div>
+                        <div class="info-value">www.linkedin.com/in/marc-melgar-88653b310</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 Marc Melgar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for experience image -->
+    <div id="experienceModal" class="modal-overlay">
+        <span class="modal-close" id="modalClose">&times;</span>
+        <img src="experience-veryfy.jpg" alt="Veryfy Internship" class="modal-img" />
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
