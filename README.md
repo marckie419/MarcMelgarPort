@@ -1,4 +1,4 @@
-# Marc Melgar - Data Engineer Portfolio
+# Marc Melgar - Computer Engineer Portfolio
 
 ## Overview
 This is a personal portfolio website for Marc Melgar, a Computer Engineer specializing in backend development, web design, and leadership. The site showcases skills, certifications, experience, and projects, and provides contact information for potential employers or collaborators.
